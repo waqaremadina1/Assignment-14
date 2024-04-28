@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#original-string {
+    background-color: #1d2951;
+    font-size: xx-large;
+}
+
+.navbar {
+    background-color: #1d2951 !important;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: #1d2951
+}
+
+#btn-box.btn {
+    margin-bottom: 8px;
+    min-width: 43%;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+#btn-box button {
+    margin-bottom: 8px;
+    min-width: 43%;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.btn:last-child {
+    margin-bottom: 0px;
+}
+
+#text {
+    background-color: #1d2951;
+    color: white;
+}
+
+#clear-output {
+    min-width: 18%;
+
+}
+
+#display-name {
+    color: green;
+    font-size: large;
+}
